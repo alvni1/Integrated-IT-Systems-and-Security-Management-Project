@@ -50,5 +50,25 @@ I used WinSCP to securely transfer files between my local machine and Kali Linux
 
 ![KALI LINUX-2024-09-25-15-14-49](https://github.com/user-attachments/assets/2e040fdd-1885-4b65-b778-90751dd2065e)
 
+Entra ID 
 
+![Screenshot (25)](https://github.com/user-attachments/assets/5cdf13d1-e2a0-49a2-a027-aafca5db73a9)
 
+![Screenshot (27)](https://github.com/user-attachments/assets/e47de34c-d4e0-4234-8404-330cb4b98d0b)
+![Screenshot (29)](https://github.com/user-attachments/assets/b5d663a6-7281-4934-ace5-ebc37bfaa794)
+![Screenshot (30)](https://github.com/user-attachments/assets/7c26ffa1-06e9-42da-9ab6-bcdcc7e934dd)
+
+Using Group Policy Management to create password policies. 
+
+![VirtualBox_DC_25_09_2024_15_27_24](https://github.com/user-attachments/assets/a412e692-49b7-49f3-8140-12df3803ca2f)
+![VirtualBox_DC_25_09_2024_15_27_49](https://github.com/user-attachments/assets/fb8b5ee1-e99b-400a-9f93-f0a7711ed241)
+
+![VirtualBox_DC_25_09_2024_16_08_58](https://github.com/user-attachments/assets/d2dcc17a-5ede-4135-b5c5-baeac2731042)
+
+![VirtualBox_DC_25_09_2024_16_09_56](https://github.com/user-attachments/assets/b7e9dc2b-5a49-4f42-8a7e-9e037c49e4e8)
+
+Using syslog and windows event viewer to create log folders 
+
+![VirtualBox_DC_25_09_2024_15_36_00](https://github.com/user-attachments/assets/5d936611-1ea3-4838-a236-983868ce51c9)
+
+![VirtualBox_DC_25_09_2024_15_33_37](https://github.com/user-attachments/assets/a5e23f33-5351-4930-bd38-cb7e7f450baf)
