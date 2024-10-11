@@ -76,8 +76,9 @@ I used Group Policy Management in the Windows Server VM in VirtualBOX to create 
 
 ![VirtualBox_DC_25_09_2024_16_08_58](https://github.com/user-attachments/assets/d2dcc17a-5ede-4135-b5c5-baeac2731042)
 
-![VirtualBox_DC_25_09_2024_16_09_56](https://github.com/user-attachments/assets/b7e9dc2b-5a49-4f42-8a7e-9e037c49e4e8)
+Here I used Powershell and the commmand "gpuupdate /force" to force any and all policies created to be effective immediately. 
 
+![VirtualBox_DC_25_09_2024_16_09_56](https://github.com/user-attachments/assets/b7e9dc2b-5a49-4f42-8a7e-9e037c49e4e8)
 
 Using syslog and windows event viewer to create log folders 
 
