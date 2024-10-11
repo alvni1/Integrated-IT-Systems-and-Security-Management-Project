@@ -96,7 +96,10 @@ In this commmand I used "tail -f" to access the last few files that have been lo
 
 ![KALI LINUX-2024-09-25-15-44-45](https://github.com/user-attachments/assets/c1bd8880-961a-4bc9-80e0-cd5786ce30d1)
 
+The 'grep' command is used to filter log files based on specfic keywords. In this case, I searched for log files that had the keywords "failed password" and "accepted password" to monitor log-in attempts on the VM. 
+
 ![KALI LINUX-2024-09-25-15-46-38](https://github.com/user-attachments/assets/7d85dfb6-f048-44c1-8280-6dd70bcb267a)
 
+The 'who' commmand shows information about users who are currently logged in. The 'w' command gives more info about the user that is currently logged in, such as the user's username, where they are logged in from, and what they are currently doing. 
 
 ![KALI LINUX-2024-09-25-15-47-33](https://github.com/user-attachments/assets/92eb23eb-2d3f-470a-bebb-0860eeb79068)
