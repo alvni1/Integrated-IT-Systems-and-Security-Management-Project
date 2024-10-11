@@ -80,14 +80,19 @@ Here I used Powershell and the commmand "gpuupdate /force" to force any and all 
 
 ![VirtualBox_DC_25_09_2024_16_09_56](https://github.com/user-attachments/assets/b7e9dc2b-5a49-4f42-8a7e-9e037c49e4e8)
 
-Using syslog and windows event viewer to create log folders 
+I used Windows Event Viewer to access the system warning logs within my Windows Server VM. Here is all the warnings that have been logged into the system.
 
 ![VirtualBox_DC_25_09_2024_15_33_37](https://github.com/user-attachments/assets/a5e23f33-5351-4930-bd38-cb7e7f450baf)
 
+I created a custom log folder that would specifically save all audit failures to it. By audit failures I mean any and all failed log-in attempts, as that could be an indication of a person trying to break into a user account to steal information or change network settings. 
+
 ![VirtualBox_DC_25_09_2024_15_36_00](https://github.com/user-attachments/assets/5d936611-1ea3-4838-a236-983868ce51c9)
+
+I used the "sudo cat /var/log/syslog" command to access all logs on my Kali Linux VM. 
 
 ![KALI LINUX-2024-09-25-15-40-38](https://github.com/user-attachments/assets/7131a9c7-30d4-4f1d-9384-21b3391362aa)
 
+In this commmand I used "tail -f" to access the last few files that have been logged and to continually watch the log file as new entries are added to the syslog. 
 
 ![KALI LINUX-2024-09-25-15-44-45](https://github.com/user-attachments/assets/c1bd8880-961a-4bc9-80e0-cd5786ce30d1)
 
