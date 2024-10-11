@@ -4,7 +4,7 @@
 
 <h2>Description</h2>
 Project consisted of: 
-Set up Windows, Kali Linux, and Windows Server 2019 virtual machine using VirtualBox, VMware Workstation Player, and cloud platform Azure
+Setting up Windows, Kali Linux, and Windows Server 2019 virtual machine using VirtualBox, VMware Workstation Player, and cloud platform Azure
 Configured secure remote access using SSH, Telnet, and Remote Desktop protocols with PuTTY and WinSCP
 Set up and managed Azure Active Directory, configured IAM policies, and controlled access to cloud resources.
 Established system monitoring with Windows Event Viewer and Linux syslog, applying security policies across both local and cloud-based VMs.
