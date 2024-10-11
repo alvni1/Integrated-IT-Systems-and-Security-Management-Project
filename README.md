@@ -52,7 +52,7 @@ Here is an example of transferring a picture from my local machine to my Kali Li
 
 ![KALI LINUX-2024-09-25-15-14-49](https://github.com/user-attachments/assets/2e040fdd-1885-4b65-b778-90751dd2065e)
 
-I used Entra ID to access the cloud-based identity access management and explore the different ways one can manage and secure identities. 
+I used Entra ID with the cloud platform Azure to access the cloud-based identity access management and explore the different ways one can manage and secure identities. 
 
 ![Screenshot (25)](https://github.com/user-attachments/assets/5cdf13d1-e2a0-49a2-a027-aafca5db73a9)
 
@@ -67,10 +67,12 @@ The VM already had built-in authentication strengths for security purposes, but 
 
 ![Screenshot (30)](https://github.com/user-attachments/assets/7c26ffa1-06e9-42da-9ab6-bcdcc7e934dd)
 
-Using Group Policy Management to create password policies. 
+I used Group Policy Management in the Windows Server VM in VirtualBOX to add user Lani Marie to the security filter, meaning any security policies created would apply to said user. 
 
 ![VirtualBox_DC_25_09_2024_15_27_24](https://github.com/user-attachments/assets/a412e692-49b7-49f3-8140-12df3803ca2f)
 ![VirtualBox_DC_25_09_2024_15_27_49](https://github.com/user-attachments/assets/fb8b5ee1-e99b-400a-9f93-f0a7711ed241)
+
+I used Group Policy Management in the Windows Server VM in VirtualBOX to create password policies for the user Lani Marie. These policies ensure enhanced secueity so that it is not easy to hack into a user's account. Here you can see certain requirements, such as the maximum password age being 90 days, meaning the password would have to be changed every 90 days. 
 
 ![VirtualBox_DC_25_09_2024_16_08_58](https://github.com/user-attachments/assets/d2dcc17a-5ede-4135-b5c5-baeac2731042)
 
