@@ -31,7 +31,7 @@ I configured my VM on Azure to be able to communicate with my other VMS by creat
 
 ![Screenshot (18)](https://github.com/user-attachments/assets/9adc20aa-1408-4a73-9b67-122d976cb048)
 
-Here is all my VMs being able to pick up a ping from one another through pinging one another's IP address. 
+Here is all my VMs being able to pick up a ping from one another through pinging one another's IP address. Although not shown in the pictures, the IP address for each network can be found by using Powershell and the command "ipconfig" on a Windows machine and "ifconfig" on Kali Linux. 
 
 ![Screenshot from 2024-09-25 15-55-47](https://github.com/user-attachments/assets/dc1a13cc-ac76-4c90-9035-7aa445afc7e7)
 
