@@ -23,21 +23,21 @@ Configured network settings for VM communication
 - <b>Microsoft Azure</b>
   
 <h2>Program walk-through:</h2>
-Here is all 3 of my VMs set-up and running.
+Here is all 3 of my VMs set-up and running. Kali Linux is running on VMware Workstation, while Windows Server 2019 is running on VM VirtualBox. Windows 11 is running on a VM within Microsoft Azure. 
 
 ![Screenshot (31)](https://github.com/user-attachments/assets/cf9bee11-982b-4b44-af06-34dd51d3b80a)
 
-I configured my VM on Azure to be able to communicate with my other VMS by creating port rules. 
+I configured my VM on Azure to be able to communicate with my other VMS by creating port rules. I created the AllowICMP rule for any port, as well as allowing incoming traffic on port 22 from my Kali Linux VM. 
 
 ![Screenshot (18)](https://github.com/user-attachments/assets/9adc20aa-1408-4a73-9b67-122d976cb048)
 
-Here is all my VMs being able to pick up a ping from one another.
+Here is all my VMs being able to pick up a ping from one another through pinging one another's IP address. 
 
 ![Screenshot from 2024-09-25 15-55-47](https://github.com/user-attachments/assets/dc1a13cc-ac76-4c90-9035-7aa445afc7e7)
 
 ![VirtualBox_DC_25_09_2024_16_21_46](https://github.com/user-attachments/assets/a258543b-a09a-4b81-916f-cd582ee970d7)
 
-I used PuTTY to establish a SSH connection to my Windows and Kali Linux VM.
+I used PuTTY to establish a SSH connection to my local Windows machine and Kali Linux VM.
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/7a412797-df2a-485b-a0c2-13c27d62def0)
 
@@ -46,16 +46,25 @@ I used WinSCP to securely transfer files between my local machine and Kali Linux
 ![Screenshot (21)](https://github.com/user-attachments/assets/44c9c0bc-5735-4299-88ea-91370f67b165)
 ![Screenshot (20)](https://github.com/user-attachments/assets/28078535-213e-4e1b-9e52-f130655d4f96)
 
+Here is an example of transferring a picture from my local machine to my Kali Linux VM. The picture is being displayed in the Kali Linux VM. 
+
 ![Screenshot (24)](https://github.com/user-attachments/assets/adf6f6f8-c1f9-4556-963c-686070052f1f)
 
 ![KALI LINUX-2024-09-25-15-14-49](https://github.com/user-attachments/assets/2e040fdd-1885-4b65-b778-90751dd2065e)
 
-Entra ID 
+I used Entra ID to access the cloud-based identity access management and explore the different ways one can manage and secure identities. 
 
 ![Screenshot (25)](https://github.com/user-attachments/assets/5cdf13d1-e2a0-49a2-a027-aafca5db73a9)
 
+I assigned the user alvni administrative roles, such as authentication administrator, meaning the user can edit and view authentication method information for any non-admin user. 
+
 ![Screenshot (27)](https://github.com/user-attachments/assets/e47de34c-d4e0-4234-8404-330cb4b98d0b)
+
+The VM already had built-in authentication strengths for security purposes, but I added the following authentication strength: password and push notification. This would require users logging in to enter their password and have a push notification authentication. The push notification authentication would require the user to have another secure device that could receive and approve of the authentication alert.
+
 ![Screenshot (29)](https://github.com/user-attachments/assets/b5d663a6-7281-4934-ace5-ebc37bfaa794)
+
+
 ![Screenshot (30)](https://github.com/user-attachments/assets/7c26ffa1-06e9-42da-9ab6-bcdcc7e934dd)
 
 Using Group Policy Management to create password policies. 
@@ -67,8 +76,19 @@ Using Group Policy Management to create password policies.
 
 ![VirtualBox_DC_25_09_2024_16_09_56](https://github.com/user-attachments/assets/b7e9dc2b-5a49-4f42-8a7e-9e037c49e4e8)
 
+
 Using syslog and windows event viewer to create log folders 
+
+![VirtualBox_DC_25_09_2024_15_33_37](https://github.com/user-attachments/assets/a5e23f33-5351-4930-bd38-cb7e7f450baf)
 
 ![VirtualBox_DC_25_09_2024_15_36_00](https://github.com/user-attachments/assets/5d936611-1ea3-4838-a236-983868ce51c9)
 
-![VirtualBox_DC_25_09_2024_15_33_37](https://github.com/user-attachments/assets/a5e23f33-5351-4930-bd38-cb7e7f450baf)
+![KALI LINUX-2024-09-25-15-40-38](https://github.com/user-attachments/assets/7131a9c7-30d4-4f1d-9384-21b3391362aa)
+
+
+![KALI LINUX-2024-09-25-15-44-45](https://github.com/user-attachments/assets/c1bd8880-961a-4bc9-80e0-cd5786ce30d1)
+
+![KALI LINUX-2024-09-25-15-46-38](https://github.com/user-attachments/assets/7d85dfb6-f048-44c1-8280-6dd70bcb267a)
+
+
+![KALI LINUX-2024-09-25-15-47-33](https://github.com/user-attachments/assets/92eb23eb-2d3f-470a-bebb-0860eeb79068)
